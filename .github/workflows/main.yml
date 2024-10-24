@@ -20,3 +20,5 @@ jobs:
           filename: github-metrics.svg
           base: header, repositories
           plugin_lines: yes
+          plugin_languages: yes
+          
