@@ -19,6 +19,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
           base: header, repositories
-          plugin_lines: yes
-          plugin_languages: yes
           
+          # Languages
+          plugin_languages: yes
+          # Achievements
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
